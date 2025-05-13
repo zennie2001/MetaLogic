@@ -18,12 +18,14 @@ const Nav = ({openNav}:Props) => {
         <div className='flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
 
             {/* logo */}
+            <Link href={'/'}>
             <div className='flex items-center space-x-2'>
                 <div className='w-10 h-10 '>
                     <Image src= "/images/metalogo.png" alt="Logo" width={500} height={300}/>
                 </div>
                 <h1 className='text-xl md:text-2xl text-white font-bold '>MetaLogic</h1>
             </div>
+            </Link>
 
             {/* Navlinks */}
             <div className='hidden lg:flex items-center space-x-10'>

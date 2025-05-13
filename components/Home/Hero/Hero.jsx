@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 import React from 'react'
 import { HiArrowSmallRight } from "react-icons/hi2";
 
@@ -24,7 +25,9 @@ const Hero = () => {
                 <p className='text-white flex justify-center  font-semibold'>enable companies to prosper in the digital world.</p>
                 </div>
                 <div className='flex justify-center'>
+                  <Link href={'/about'}>
                 <button className='text-white flex items-center gap-3 bg-blue-800 px-6 py-2 rounded-md hover:bg-red-600  transition-all duration-200 mt-12'>Learn More  <HiArrowSmallRight className='text-2xl font-bold ' /></button>
+                </Link>
                 </div>
             </div>
 
