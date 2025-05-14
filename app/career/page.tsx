@@ -11,8 +11,7 @@ const career = () => {
     {/* <!-- Page Header --> */}
     <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center">Careers</h1>
     <p className="text-lg text-gray-600 mb-10">
-      Join our dynamic team and help build cutting-edge web applications. We're hiring!
-    </p>
+       {`Join our dynamic team and help build cutting-edge web applications. We're hiring!`}    </p>
 
     {/* <!-- Job Listings --> */}
     <div className="space-y-6">

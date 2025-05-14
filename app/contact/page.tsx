@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 import React from 'react'
 import { FiHeadphones } from "react-icons/fi";
 
@@ -12,7 +12,7 @@ const ContactPage = () => {
         {/* Left part */} 
         <div className='className=lg:w-[45%] md:w-[45%] flex flex-col gap-10 my-10'>
             <p className='text-rose-600 text-xl'>Get In Touch</p>
-            <h1 className='sm:text-[40px] md:text-[70px] lg:text-[70px] font-bold'>Let's Kickstart Your Project</h1>
+            <h1 className='sm:text-[40px] md:text-[70px] lg:text-[70px] font-bold'>{`Let's Kickstart Your Project`}</h1>
             <p className='text-sm font-light'>Ready to take the next step? Fill out the form to schedule a consultation with our experts.</p>
 
             <div className='border bg-white flex flex-col gap-6 p-4 rounded-lg w-2/3'>
