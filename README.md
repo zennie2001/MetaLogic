@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## 🤖 Introduction
+A MERN stack redesigned Metalogic’s Application developed using Next.js, TypeScript, and tailwindcss features all the necessary features of Metalogic Software Pvt. Ltd. for MERN Intern position.
+
+## ⚙️ Tech Stack
+* Next.js
+* TypeScript
+* Tailwind CSS
+* MongoDb
+
+##  Features
+* Modern Design Home Page
+* Responsiveness: Mobile & desktop-friendly design
+* Broken page into reusable components 
+*  User Friendly
+
 ## Getting Started
 
 First, run the development server:
