@@ -1,5 +1,8 @@
 import React from 'react'
 
+export const metadata = {
+  title:"Join Metalogic Software Pvt"}
+
 const career = () => {
   return (
    <div className=' h-[120vh] sm:h-[200vh] bg-gray-50 pt-18'>

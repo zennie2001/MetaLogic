@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 
+export const metadata = {
+  title:"Blogs | Metalogic Software Pvt"}
+
 const blogs = () => {
   return (
     <div className='px-10 h-[120vh] sm:h-[200vh] bg-gray-50 pt-28'>

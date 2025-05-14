@@ -5,6 +5,7 @@ import {Poppins} from 'next/font/google';
 import ReasponsiveNav from "@/components/Home/Navbar/ReasponsiveNav";
 import Footer from "@/components/Home/Footer/Footer";
 
+
 const font = Poppins({
   weight:['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets:['latin']
@@ -20,8 +21,10 @@ const font = Poppins({
 //   subsets: ["latin"],
 // });
 
-export const metadata: Metadata = {
-  title: "Metalogic Software Pvt. Ltd.",
+export const metadata = {
+  title: {
+    default:"Metalogic Software Pvt"
+  },
   description: "Metalogic Software Pvt. Ltd. next app",
 };
 
@@ -31,13 +34,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${font.className} antialiased`}
       >
+        
         <ReasponsiveNav/>
         {children}
         <Footer/>
+        
       </body>
     </html>
   );

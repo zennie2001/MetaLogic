@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 
+export const metadata = {
+  title:"Metalogic Empowering Business"}
+
 const about = () => {
   return (
    <div className=' h-[120vh] sm:h-[200vh] '>
